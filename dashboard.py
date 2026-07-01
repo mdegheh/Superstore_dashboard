@@ -18,7 +18,7 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
 else:
-    os.chdir(r"/Users/mosy/projects/educational/movement_analysis/Streamlit_dashboard/Superstore_dashboard/Data")
+    os.chdir(r"/Users")
     df = pd.read_csv("Superstore_orders.csv", encoding = "ISO-8859-1")
 
 col1, col2 = st.columns((2))
